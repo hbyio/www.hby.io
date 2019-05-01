@@ -14,12 +14,16 @@
 </head>
 
 <body>
+  <div class="section">
+    <div class="container">
+{{ block "header" . }}{{ partial "header" . }}{{end}}
 
-  {{ block "header" . }}{{ partial "header" . }}{{end}}
+{{ block "main" . }}{{end}}
 
-  {{ block "main" . }}{{end}}
+{{ block "footer" . }}{{ partial "footer" . }}{{end}}
+    </div>
+  </div>
 
-  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
   {{ $script := .Site.Data.webpack.main }}
   {{ with $script.js }}
