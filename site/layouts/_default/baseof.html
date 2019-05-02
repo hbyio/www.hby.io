@@ -14,14 +14,12 @@
 </head>
 
 <body>
-  <div class="section">
-    <div class="container">
-{{ block "header" . }}{{ partial "header" . }}{{end}}
+  <div class="container">
+    {{ block "header" . }}{{ partial "header" . }}{{end}}
 
-{{ block "main" . }}{{end}}
+      {{ block "main" . }}{{end}}
 
-{{ block "footer" . }}{{ partial "footer" . }}{{end}}
-    </div>
+      {{ block "footer" . }}{{ partial "footer" . }}{{end}}
   </div>
 
 

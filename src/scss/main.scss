@@ -1,1 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:700');
+$body-size: 20px;
 @import '~bulma/bulma.sass';
+
+
+h1, h2, h3, h4, h5, h6, .is-1, .is-2, .is-3, .is-4, .is-5, .is-6 {
+    font-family:  'Rubik', sans-serif;
+}
+
+body {
+    background-color: snow;
+    height: 100vh;
+}
+

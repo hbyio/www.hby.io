@@ -1,7 +1,42 @@
 {{ define "main" }}
-<div class="columns is-centered">
-    <div class="column is-three-quarters">
-        <div class="title is-1">Huckleberry</div>
+<div class="section">
+    <div class="columns is-centered">
+        <div class="column is-three-quarters has-text-centered">
+                {{ partial "ideapeople" }}
+        </div>
+    </div>
+    <div class="columns is-centered">
+        <div class="column is-three-quarters">
+            
+            <div class="title is-1">HUCKLEBERRY</div>
+            <div class="subtitle is-4">Expérience utilisateur et conception de produits numériques</div>
+            <div class="content">
+                <p>
+                    Nous accompagnons les porteurs de projets, internes comme externes, dans la conception de leurs projets numériques.
+                </p>
+                <p>
+                    Forts de notre propre expérience comme éditeur d'application web métier nous proposons des conseils basés sur des faits avérés. Et quand nous ne savons pas, nous expérimentons.
+                </p>
+            </div>
+            <div class="title is-4">Nous écrire</div>
+            <div class="content">
+                <form name="contact" class="form" method="POST" data-netlify="true">
+                    <p>
+                        <label>Your Name: <input class="input" type="text" name="name" /></label>   
+                    </p>
+                    <p>
+                        <label>Your Email: <input  class="input" type="email" name="email" /></label>
+                    </p>
+                    
+                    <p>
+                        <label>Message: <textarea class="textarea" name="message"></textarea></label>
+                    </p>
+                    <p>
+                        <button class="button" type="submit">Send</button>
+                    </p>
+                </form>
+            </div>
+        </div>
     </div>
 </div>
 {{ end }}
