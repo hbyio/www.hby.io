@@ -13,6 +13,6 @@ year: 2009
 ---
 
 {{< img "ill2.png">}}
-{{< img "ill1.jpg">}}
+{{< img "ill1.png">}}
 
 
