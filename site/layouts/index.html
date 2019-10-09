@@ -2,19 +2,17 @@
 <div class="flex items-center justify-center bg-gray-100">
     <img src="/logoblackred.png" alt="">
 </div>
-<div class="text-center w-full p-5 mb-10">
-    <div class="font-light text- ">Conception de produits numériques</div>
-</div>
-<div class="my-20 max-w-3xl mx-5 sm:mx-auto">
-    <div class="text-xl font-bold my-5 text-center">Services</div>
+
+<div class="mb-20 max-w-3xl mx-5 sm:mx-auto">
+    <div class="text-xl font-bold my-5 text-center">Nous conçevons des produits numériques</div>
 
     <p>
         Nous accompagnons les porteurs de projets, internes comme externes, dans la conception de leurs projets
-        numériques.
+        numériques. Nous conseillons, formons ou réalisons en fonction des attentes et de la problématique soumise
     </p>
+    <br>
     <p>
-        Forts de notre propre expérience comme <a href="https://pilot.pm">éditeur d'application web métier</a> nous
-        proposons des conseils basés sur des faits avérés.
+        Grâce à notre activité <a href="https://pilot.pm">d'éditeur d'application web métier</a> nos conseils sont directement issus de notre expérience de fabricant.
     </p>
 </div>
 
@@ -22,7 +20,7 @@
     <div class="text-xl font-bold my-5 text-center">Produits</div>
     {{ range where .Pages "Params.type" "product" }}
     <a href="{{.Permalink}}">
-        <div class=" p-10 mb-4 rounded bg-gray-900 hover:bg-gray-800 cursor-pointer">
+        <div class=" p-10 mb-4 rounded bg-gray-900 hover:bg-blue-900 cursor-pointer">
             <h3 class="text-lg font-bold text-center text-yellow-600">
                 {{ .Title }}
                 <div class="text-gray-800">{{.Params.Year}}</div>
@@ -35,10 +33,10 @@
     {{ end }}
 </div>
 <div class="my-20 max-w-3xl mx-5 sm:mx-auto">
-    <div class="text-xl font-bold my-5 text-center">Missions conseil</div>
-    {{ range where .Pages "Params.type" "!=" "product" }}
+    <div class="text-xl font-bold my-5 text-center">Projets réalisés</div>
+    {{ range where (.Pages.ByParam "year").Reverse "Params.type" "!=" "product" }}
     <a href="{{.Permalink}}">
-        <div class=" p-10 mb-4 rounded bg-gray-900 hover:bg-gray-800 cursor-pointer">
+        <div class=" p-10 mb-4 rounded bg-gray-900 hover:bg-blue-900 cursor-pointer">
             <h3 class="text-lg font-bold text-center text-yellow-600">
                 {{ .Title }}
                 <div class="text-gray-800">{{.Params.Year}}</div>

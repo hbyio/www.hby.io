@@ -9,8 +9,8 @@ illustration: /images/ubisoft.png
 mission: 'conception'
 title: 'Ubisoft'
 layout: "project"
-weight: 1
-year: 2010
+weight: 2
+year: 2007
 ---
 {{< img "ill3.png">}}
 {{< img "ill2.png">}}

@@ -1,21 +1,18 @@
 ---
-title: 'AXA'
+description: 'Une ville en 3D pour découvrir les valeurs et preuves de la marque'
 date: 2018-11-14T19:02:50-07:00
-brief: 'Une ville en 3D pour découvrir les valeurs et preuves de la marque'
-mission: 'conception'
-year: 2012
-weight: 2
 draft: false
-illustration: /images/axa.png
+brief: Comment communiquer en interne sur l'ensemble des valeurs et services phares du groupe avec un outil qui attire l'attention.
+idea : Une plateforme en vraie 3D permettant à l'utilisateur de naviguer entre les différents quartiers d'une ville mettant en scène les évènements de la vie quotidienne, personnelle ou professionnelle, protégés par la marque.
 layout: "project"
+mission: 'conception'
+title: 'AXA'
+weight: 2
+year: 2010
 ---
 
-# [Victor Hugo](https://github.com/netlify-templates/victor-hugo)
-
-## A Hugo boilerplate for creating truly epic websites
-
-<img src="https://d33wubrfki0l68.cloudfront.net/30790d6888bd8af863fb2b5c33a7f337cdbda243/4e867/images/hugo-logo-wide.svg" style="width: 40%" />
-
-This is a boilerplate for using [Hugo](https://gohugo.io/) as a static site generator and [Webpack](https://webpack.js.org/) as your asset pipeline. Victor Hugo setup to use [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io/) for CSS and JavaScript compiling/transpiling. This project is released under the [MIT license](LICENSE). Please make sure you understand its implications and guarantees.
-
-## Enjoy!! 😸
+{{< img "ill1.png">}}
+{{< img "ill2.png">}}
+{{< img "ill3.png">}}
+{{< img "ill4.png">}}
+{{< img "ill5.png">}}
