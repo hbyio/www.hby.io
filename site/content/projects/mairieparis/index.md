@@ -1,7 +1,7 @@
 ---
 brief: Informer et proposer des services aux étudiants parisiens.
 date: 2018-11-14T19:02:50-07:00
-description: 'Plateforme interactive de présentation des métiers du groupe'
+description: Dispositif de services à l'attention des étudiants parisiens
 draft: false
 idea: etudiantdeparis.fr une plateforme éditoriale couplée à un espace communautaire.
 illustration: /images/ubisoft.png
