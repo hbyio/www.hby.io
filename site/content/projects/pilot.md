@@ -5,18 +5,14 @@ year: 'Depuis 2013'
 description: 'Outil de gestion de projet marketing et communication'
 mission: 'conception • code • design'
 draft: false
-illustration: /images/afci.png
 layout: "project"
 type: "product"
 weight: 1
+brief: Pour produire des milliers de contenus en équipe des outils comme Word ou une simple boîte mail devenaient insuffisants.
+idea: Un outil (Saas) de gestion de projet inspiré du développement logiciel et designé spécifiquement pour des producteurs de contenus
 ---
+<a href="https://pilot.pm" class="button w-full flex items-center">
+Accéder au produit
+<span class="ml-2">{{< svg/out size="18" color="#546E7A" >}}</span>
+</a>
 
-# [Victor Hugo](https://github.com/netlify-templates/victor-hugo)
-
-## A Hugo boilerplate for creating truly epic websites
-
-<img src="https://d33wubrfki0l68.cloudfront.net/30790d6888bd8af863fb2b5c33a7f337cdbda243/4e867/images/hugo-logo-wide.svg" style="width: 40%" />
-
-This is a boilerplate for using [Hugo](https://gohugo.io/) as a static site generator and [Webpack](https://webpack.js.org/) as your asset pipeline. Victor Hugo setup to use [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io/) for CSS and JavaScript compiling/transpiling. This project is released under the [MIT license](LICENSE). Please make sure you understand its implications and guarantees.
-
-## Enjoy!! 😸
