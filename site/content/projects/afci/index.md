@@ -1,7 +1,13 @@
 ---
-title: 'tech'
+brief: 'Réseau communautaire professionnel'
 date: 2018-11-14T19:02:50-07:00
 draft: false
+illustration: /images/afci.png
+mission: 'conception'
+title: 'Association française de communication interne'
+type: "projects"
+weight: 3
+year: '2008'
 ---
 
 # [Victor Hugo](https://github.com/netlify-templates/victor-hugo)

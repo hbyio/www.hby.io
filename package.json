@@ -64,6 +64,7 @@
   },
   "dependencies": {
     "bulma": "^0.7.4",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.12.0",
+    "tailwindcss": "^1.1.2"
   }
 }
