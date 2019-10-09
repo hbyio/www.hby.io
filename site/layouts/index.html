@@ -19,8 +19,24 @@
 </div>
 
 <div class="my-20 max-w-3xl mx-5 sm:mx-auto">
-    <div class="text-xl font-bold my-5 text-center">Projets</div>
-    {{ range (.Pages.ByParam "realisation") }}
+    <div class="text-xl font-bold my-5 text-center">Produits</div>
+    {{ range where .Pages "Params.type" "product" }}
+    <a href="{{.Permalink}}">
+        <div class=" p-10 mb-4 rounded bg-gray-900 hover:bg-gray-800 cursor-pointer">
+            <h3 class="text-lg font-bold text-center text-yellow-600">
+                {{ .Title }}
+                <div class="text-gray-800">{{.Params.Year}}</div>
+            </h3>
+            <div class="text-gray-600 text-xs text-center">{{.Params.Subtitle}}</div>
+            <div class="text-yellow-500 text-sm text-center mt-5">{{.Params.Description}}</div>
+            <div class="text-gray-300 text-xs font-normal text-center mb-5">{{.Params.Mission}}</div>
+        </div>
+    </a>
+    {{ end }}
+</div>
+<div class="my-20 max-w-3xl mx-5 sm:mx-auto">
+    <div class="text-xl font-bold my-5 text-center">Missions conseil</div>
+    {{ range where .Pages "Params.type" "!=" "product" }}
     <a href="{{.Permalink}}">
         <div class=" p-10 mb-4 rounded bg-gray-900 hover:bg-gray-800 cursor-pointer">
             <h3 class="text-lg font-bold text-center text-yellow-600">

@@ -1,13 +1,14 @@
 ---
-title: 'AXA'
+title: 'Draaft.io'
 date: 2018-11-14T19:02:50-07:00
-brief: 'Une ville en 3D pour découvrir les valeurs et preuves de la marque'
-mission: 'conception'
-year: 2012
-weight: 2
+year: '2019'
+description: 'Outil de collecte de contenus depuis Pilot vers les générateurs de sites statiques'
+mission: 'conception • code • design'
 draft: false
-illustration: /images/axa.png
+illustration: /images/afci.png
 layout: "project"
+type: "product"
+weight: 2
 ---
 
 # [Victor Hugo](https://github.com/netlify-templates/victor-hugo)

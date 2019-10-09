@@ -5,7 +5,7 @@ draft: false
 illustration: /images/afci.png
 mission: 'conception'
 title: 'Association française de communication interne'
-type: "projects"
+layout: "project"
 weight: 3
 year: '2008'
 ---

@@ -2,11 +2,12 @@
 title: 'Pilot.pm'
 date: 2018-11-14T19:02:50-07:00
 year: 'Depuis 2013'
-brief: 'Outil de gestion de projet marketing et communication'
+description: 'Outil de gestion de projet marketing et communication'
 mission: 'conception • code • design'
 draft: false
 illustration: /images/afci.png
-type: "projects"
+layout: "project"
+type: "product"
 weight: 1
 ---
 

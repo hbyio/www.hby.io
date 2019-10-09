@@ -8,7 +8,7 @@ idea: Pour changer du classique site ou de la plaquette en PDF distribuée dans 
 illustration: /images/ubisoft.png
 mission: 'conception'
 title: 'Ubisoft'
-type: "projects"
+layout: "project"
 weight: 1
 year: 2010
 ---
