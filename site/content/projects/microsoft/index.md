@@ -12,8 +12,8 @@ layout: "project"
 weight: 1
 year: 2010
 ---
-{{< img "ill3.jpg">}}
-{{< img "ill2.jpg">}}
-{{< img "ill1.jpg">}}
+{{< img "ill3.png">}}
+{{< img "ill2.png">}}
+{{< img "ill1.png">}}
 
 
