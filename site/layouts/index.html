@@ -17,6 +17,7 @@
 </div>
 
 <div class="my-20 max-w-3xl mx-5 sm:mx-auto">
+    <img class="mx-auto" src="/images/bolt.png" alt="">
     <div class="text-xl font-bold my-5 text-center">Produits</div>
     {{ range where .Pages "Params.type" "product" }}
     <a href="{{.Permalink}}">
@@ -33,6 +34,7 @@
     {{ end }}
 </div>
 <div class="my-20 max-w-3xl mx-5 sm:mx-auto">
+    <img class="mx-auto" src="/images/bolt.png" alt="">
     <div class="text-xl font-bold my-5 text-center">Projets réalisés</div>
     {{ range where (.Pages.ByParam "year").Reverse "Params.type" "!=" "product" }}
     <a href="{{.Permalink}}">
@@ -51,6 +53,7 @@
 
 
 <div class="my-20 max-w-3xl mx-5 sm:mx-auto">
+    <img class="mx-auto" src="/images/bolt.png" alt="">
     <div class="text-xl font-bold my-5 text-center">Nous contacter</div>
     <form name="contact" class="form" method="POST" data-netlify="true">
         <div class="text-xs font-semibold mb-2">
