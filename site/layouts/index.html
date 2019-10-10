@@ -33,7 +33,7 @@
     </a>
     {{ end }}
 </div>
-<div class="my-20 max-w-3xl mx-5 sm:mx-auto">
+<div class="Work my-20 max-w-3xl mx-5 sm:mx-auto">
     <img class="mx-auto" src="/images/bolt.png" alt="">
     <div class="text-xl font-bold my-5 text-center">Projets réalisés</div>
     {{ range where (.Pages.ByParam "year").Reverse "Params.type" "!=" "product" }}
@@ -63,7 +63,7 @@
             <textarea class="textarea" name="message" placeholder="Votre message et moyen de contact"></textarea>
         </div>
         <div>
-            <button class="button w-full mt-2" type="submit">Envoyer</button>
+            <button class="button w-full mt-2 bg-gray-800" type="submit">Envoyer</button>
         </div>
     </form>
 </div>

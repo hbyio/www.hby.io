@@ -22,18 +22,32 @@ h2 {
     @apply text-xl text-gray-800 font-semibold leading-loose;
 }
 
+html {
+    height: 100%;
+}
+
+
 body {
+    background-image: url(/svg/wave.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: white;
-    height: 100vh;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .input,
 .textarea {
-    @apply bg-gray-100 border border-gray-200;
+    @apply bg-white border border-gray-200;
     color: #363636;
     box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
     max-width: 100%;
     width: 100%;
+    &::placeholder {
+        @apply text-gray-600 font-semibold;
+    }
 }
 
 

@@ -7,18 +7,18 @@
     <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
     <title>{{ $.Site.Title }}</title>
     <meta name="description" content="{{ $.Site.Params.Description }}">
-    <link rel="apple-touch-icon-precomposed" href="apple-icon-57x57.png" sizes="57x57" type="image/png">
-    <link rel="apple-touch-icon-precomposed" href="apple-icon-60x60.png" sizes="60x60" type="image/png">
-    <link rel="apple-touch-icon-precomposed" href="apple-icon-72x72.png" sizes="72x72" type="image/png">
-    <link rel="apple-touch-icon-precomposed" href="apple-icon-76x76.png" sizes="76x76" type="image/png">
-    <link rel="apple-touch-icon-precomposed" href="apple-icon-114x114.png" sizes="114x114" type="image/png">
-    <link rel="apple-touch-icon-precomposed" href="apple-icon-120x120.png" sizes="120x120" type="image/png">
-    <link rel="apple-touch-icon-precomposed" href="apple-icon-144x144.png" sizes="144x144" type="image/png">
-    <link rel="apple-touch-icon-precomposed" href="apple-icon-152x152.png" sizes="152x152" type="image/png">
-    <link rel="apple-touch-icon-precomposed" href="apple-icon-180x180.png" sizes="180x180" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="icons/apple-icon-57x57.png" sizes="57x57" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="icons/apple-icon-60x60.png" sizes="60x60" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="icons/apple-icon-72x72.png" sizes="72x72" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="icons/apple-icon-76x76.png" sizes="76x76" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="icons/apple-icon-114x114.png" sizes="114x114" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="icons/apple-icon-120x120.png" sizes="120x120" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="icons/apple-icon-144x144.png" sizes="144x144" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="icons/apple-icon-152x152.png" sizes="152x152" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="icons/apple-icon-180x180.png" sizes="180x180" type="image/png">
     <link rel="icon" href="favicon.png?v=2" />
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
     {{ $stylesheet := .Site.Data.webpack.main }}
