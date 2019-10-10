@@ -38,6 +38,13 @@ body {
     flex-direction: column;
 }
 
+.Header {
+    background-image: url(/svg/wavedown.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .input,
 .textarea {
     @apply bg-white border border-gray-200;
