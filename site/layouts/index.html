@@ -1,24 +1,31 @@
 {{ define "main" }}
 <div class="Header flex items-center justify-center ">
-    <img src="/logoblackred.png" alt="">
+    <img class="shadow rounded-full" src="/logoblackred.png" alt="">
 </div>
 
-<div class="mb-20 max-w-3xl mx-5 sm:mx-auto">
-    <div class="text-xl font-bold my-5 text-center">Nous conçevons des produits numériques</div>
+<div class="Hero  mb-20 max-w-xl mx-5 sm:mx-auto  text-gray-900 p-10">
+    <h1 class="my-10 text-5xl text-center">Salut ! Nous sommes <span class="pixelLetter">HBY</span></h1>
+    <h1 class="my-10 ">Nous conçevons des produits pour le web, c'est sympa de passer 👋 !</h1>
+    <p>Nous sommes à l'intersection entre le développement, le design et le marketing et avons une seule obsession :
+        <mark class="yellow">que le produit proposé réponde aux attentes</mark> (celles de vos utilisateurs, pas les vôtres, il
+            y a une subtilité)
 
+    </p>
     <p>
         Nous accompagnons les porteurs de projets dans la réalisation de leurs objectifs.
+    </p>
+    <p>
         Nous conseillons, formons ou réalisons en fonction des attentes et de la problématique soumise.
     </p>
-    <br>
     <p>
-        Grâce à notre activité <a href="https://pilot.pm">d'éditeur d'application web métier</a> nos conseils sont directement issus de notre expérience de fabricant.
+        Grâce à notre activité d'éditeur d'application web métier nos conseils sont
+        directement issus de notre expérience de fabricant.
     </p>
 </div>
 
-<div class="my-20 max-w-3xl mx-5 sm:mx-auto">
+<div class="my-20 max-w-3xl mx-5 md:mx-auto">
     <img class="mx-auto" src="/images/bolt.png" alt="">
-    <div class="text-xl font-bold my-5 text-center">Produits</div>
+    <h2 class="text-xl font-bold my-5 text-center">Nos produits</h2>
     {{ range where .Pages "Params.type" "product" }}
     <a href="{{.Permalink}}">
         <div class=" p-10 mb-4 rounded bg-gray-900 hover:bg-blue-900 cursor-pointer">
@@ -35,7 +42,7 @@
 </div>
 <div class="Work my-20 max-w-3xl mx-5 sm:mx-auto">
     <img class="mx-auto" src="/images/bolt.png" alt="">
-    <div class="text-xl font-bold my-5 text-center">Projets réalisés</div>
+    <h2 class="text-xl font-bold my-5 text-center">Vos produits</h2>
     {{ range where (.Pages.ByParam "year").Reverse "Params.type" "!=" "product" }}
     <a href="{{.Permalink}}">
         <div class=" p-10 mb-4 rounded bg-gray-900 hover:bg-blue-900 cursor-pointer">

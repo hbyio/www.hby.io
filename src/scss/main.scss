@@ -1,5 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 $body-size: 20px;
+
 @import "~tailwindcss/base";
 @import "~tailwindcss/components";
 @import "~tailwindcss/utilities";
@@ -15,11 +16,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    @apply text-2xl text-gray-800 font-bold leading-loose;
+    @apply text-3xl text-gray-800 font-bold leading-tight;
+}
+
+.pixelLetter{
+  font-family: 'Press Start 2P', cursive;
 }
 
 h2 {
-    @apply text-xl text-gray-800 font-semibold leading-loose;
+    @apply text-sm text-gray-800 font-bold leading-tight;
 }
 
 html {
@@ -36,6 +41,36 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    padding: 0 1rem;
+}
+p {
+  @apply mb-4;
+  line-height: 1.5rem;
+}
+
+@keyframes mark {
+  to {
+    background-position: -100%;
+  }
+}
+
+mark {
+  position: relative;
+  transition: background-position 0.4s;
+  transform: skewX(30deg);
+  padding: 0.15em 0.5em;
+  margin: 0 -0.55em;
+  background-blend-mode: multiply;
+  mix-blend-mode: multiply;
+  animation: mark linear .3s forwards;
+}
+
+.yellow {
+  background: 0 0;
+  background: linear-gradient(to right, rgba(#000, 0) 50%, rgba($yellow400, 0.85) 50%);
+  background-position: 0;
+  // make the background twice as big
+  background-size: 200%;
 }
 
 .Header {
@@ -45,6 +80,10 @@ body {
     background-size: cover;
 }
 
+
+.main{
+
+}
 .input,
 .textarea {
     @apply bg-white border border-gray-200;
