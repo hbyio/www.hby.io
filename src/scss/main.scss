@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:900&display=swap');
+
 $body-size: 20px;
 
 @import "~tailwindcss/base";
@@ -20,7 +21,8 @@ h1 {
 }
 
 .pixelLetter{
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Nunito',
+  sans-serif;
 }
 
 h2 {
