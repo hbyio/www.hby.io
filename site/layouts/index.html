@@ -4,21 +4,70 @@
 </div>
 
 <div class="Hero mb-20 max-w-xl sm:mx-auto  text-gray-900 p-2">
-    <h1 class="my-10 text-3xl md:text-5xl md:text-center"><span class="pixelLetter">Salut! Nous sommes HBY </span></span></h1>
+    <h1 class="my-10 text-3xl md:text-5xl md:text-center"><span
+            class="pixelLetter">Salut! Nous sommes HBY </span></span></h1>
     <h1 class="my-10 text-2xl md:text-3xl ">Nous conçevons des produits pour le web, c'est sympa de passer 👋 !</h1>
-    <p>Nous sommes à l'intersection entre le développement, le design et le marketing avec pour seul objectif <mark class="yellow">de fabriquer des choses utiles</mark> pour vous et vos clients.
+    <p>Nous sommes à l'intersection entre le développement, le design et le marketing avec pour seul objectif
+        <mark class="yellow">de fabriquer des choses utiles</mark>
+        pour vous et vos clients.
     </p>
     <p>
-        Nous sommes éditeurs de nos propres solutions Saas et nous proposons de vous accompagner pour réaliser les vôtres en nous basant sur notre expérience.
+        Nous sommes éditeurs de nos propres solutions Saas et nous proposons de vous accompagner pour réaliser les
+        vôtres en nous basant sur notre expérience.
     </p>
     <p>
-        Nous pouvons vous <span class="font-bold">conseiller</span>, vous <span class="font-bold">former</span> ou <span class="font-bold">fabriquer</span>. Si nous ne pouvons pas vous apporter de plus-value nous vous le dirons très tôt et toujours avant de facturer quoique ce soit :)
+        Nous pouvons vous <span class="font-bold">conseiller</span>, vous <span class="font-bold">former</span> ou <span
+            class="font-bold">fabriquer</span>. Si nous ne pouvons pas vous apporter de plus-value nous vous le dirons
+        très tôt et toujours avant de facturer quoique ce soit :)
     </p>
+</div>
+
+<div class="section bg-gray-100">
+    <div class="Section--title flex flex-col text-center text-2xl text-gray-900">
+        <div class="text-5xl">🥡</div>
+        <div class="pixelLetter">HbY Take-Away</div>
+    </div>
+    <div class="text-gray-500 text-center">
+        Des services au forfait a emporter chez vous (Rennes et alentours).
+    </div>
+    <div class="Menu text-2xl max-w-xl mx-auto my-10">
+        <div class="Menu--title w-full flex flex-col justify-between mb-5">
+            <div class="leading-tight">🍚 Atelier "Les basiques du web"</div>
+            <div>
+                <span class="p-1 text-xs font-semibold text-purple-900 bg-purple-200 rounded">4h</span>
+                <span class="p-1 text-xs font-semibold text-yellow-900 bg-yellow-200 rounded">500 €/HT</span>
+                <span class="p-1 text-xs font-semibold text-green-900 bg-green-200 rounded">5 pers. max</span>
+            </div>
+        </div>
+        <div class="Menu--body text-sm tect-gray-600">
+            Niveau débutant : La culture générale élémentaire à avoir pour évoluer professionnellement sur Internet.
+            Quand on les vulgarise correctement les fondations du web ne sont pas difficiles à comprendre. Cet atelier
+            est idéal pour les personnes qui veulent soit découvrir ce domaine soit commencer à s'équiper culturellement
+            en vue d'un projet.
+
+            Nous allons expliquer tous les acronymes essentiels comme CMS, DNS ou Saas et répondre aux questions classqiues que tout débutant se pose en démarrant.
+            Cet
+        </div>
+    </div>
+    <div class="Menu text-2xl max-w-xl mx-auto my-10">
+        <div class="Menu--title w-full flex flex-col justify-between mb-5">
+            <div class="leading-tight">🍙 Atelier "Les outils de gestion de contenu"</div>
+            <div>
+                <span class="p-1 text-xs font-semibold text-purple-900 bg-purple-200 rounded">4h</span>
+                <span class="p-1 text-xs font-semibold text-yellow-900 bg-yellow-200 rounded">700 €/HT</span>
+                <span class="p-1 text-xs font-semibold text-green-900 bg-green-200 rounded">5 pers. max</span>
+            </div>
+        </div>
+        <div class="Menu--body text-sm tect-gray-600">
+            Niveau débutant : Sur Internet soit on vend des choses soit on publie des choses. Cet atelier est pour
+            découvrir la seconde catégorie.
+        </div>
+    </div>
 </div>
 
 <div class="my-20 max-w-3xl mx-5 md:mx-auto">
     <img class="mx-auto" src="/images/bolt.png" alt="">
-    <h2 class="text-xl font-bold my-5 text-center">Nos produits</h2>
+    <h2 class="text-xl font-bold my-5 text-center">Nous éditons ces solutions</h2>
     {{ range where .Pages "Params.type" "product" }}
     <a href="{{.Permalink}}">
         <div class=" p-10 mb-4 rounded bg-gray-900 hover:bg-blue-900 cursor-pointer">
@@ -35,7 +84,7 @@
 </div>
 <div class="Work my-20 max-w-3xl mx-5 sm:mx-auto">
     <img class="mx-auto" src="/images/bolt.png" alt="">
-    <h2 class="text-xl font-bold my-5 text-center">Vos produits</h2>
+    <h2 class="text-xl font-bold my-5 text-center">Ce que nous avons fait pour les autres</h2>
     {{ range where (.Pages.ByParam "year").Reverse "Params.type" "!=" "product" }}
     <a href="{{.Permalink}}">
         <div class=" p-10 mb-4 rounded bg-gray-900 hover:bg-blue-900 cursor-pointer">
@@ -66,6 +115,49 @@
             <button class="button w-full mt-2 bg-gray-800" type="submit">Envoyer</button>
         </div>
     </form>
+</div>
+
+<div class="section bg-gray-900 rounded mb-10">
+    <div class="Section--title flex flex-col text-center text-2xl text-gray-900">
+        <div class="text-6xl">🥡</div>
+        <div class="pixelLetter">HbY Take-Away</div>
+    </div>
+    <div class="text-gray-500 text-center">
+        Des services au forfait a emporter chez vous.
+    </div>
+    <div class="Menu text-2xl max-w-xl mx-auto my-10">
+        <div class="Menu--title w-full flex flex-col justify-between mb-5">
+            <div class="leading-tight">🍚 Atelier "Les basiques du web"</div>
+            <div>
+                <span class="p-1 text-xs font-semibold text-purple-900 bg-purple-200 rounded">4h</span>
+                <span class="p-1 text-xs font-semibold text-yellow-900 bg-yellow-200 rounded">500 €/HT</span>
+                <span class="p-1 text-xs font-semibold text-green-900 bg-green-200 rounded">5 pers. max</span>
+            </div>
+        </div>
+        <div class="Menu--body text-sm tect-gray-600">
+            Niveau débutant : La culture générale élémentaire à avoir pour évoluer professionnellement sur Internet.
+            Quand on les vulgarise correctement les fondations du web ne sont pas difficiles à comprendre. Cet atelier
+            est idéal pour les personnes qui veulent soit découvrir ce domaine soit commencer à s'équiper culturellement
+            en vue d'un projet.
+
+            Nous allons expliquer tous les acronymes essentiels comme CMS, DNS ou Saas et répondre aux questions classqiues que tout débutant se pose en démarrant.
+            Cet
+        </div>
+    </div>
+    <div class="Menu text-2xl max-w-xl mx-auto my-10">
+        <div class="Menu--title w-full flex flex-col justify-between mb-5">
+            <div class="leading-tight">🍙 Atelier "Les outils de gestion de contenu"</div>
+            <div>
+                <span class="p-1 text-xs font-semibold text-purple-900 bg-purple-200 rounded">4h</span>
+                <span class="p-1 text-xs font-semibold text-yellow-900 bg-yellow-200 rounded">700 €/HT</span>
+                <span class="p-1 text-xs font-semibold text-green-900 bg-green-200 rounded">5 pers. max</span>
+            </div>
+        </div>
+        <div class="Menu--body text-sm tect-gray-600">
+            Niveau débutant : Sur Internet soit on vend des choses soit on publie des choses. Cet atelier est pour
+            découvrir la seconde catégorie.
+        </div>
+    </div>
 </div>
 
 {{ end }}
