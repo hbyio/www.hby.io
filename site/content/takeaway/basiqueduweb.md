@@ -1,7 +1,7 @@
 ---
 title: Les basiques du web
 price: 500€ HT.
-how: En atelier (Rennes métropole) &bull; 3h
+how: En atelier (Rennes métropole / Paris) &bull; 3h
 people: 5 pers. max.
 illustration: 🍚
 ---
