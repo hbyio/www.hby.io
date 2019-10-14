@@ -7,6 +7,9 @@ module.exports = {
     "tailwindcss": {
       theme: {
         extend: {
+          fontSize: {
+            'xxs': '.65rem'
+          },
           colors: {
             'electricblue': '#0022FF',
             yellow: {
