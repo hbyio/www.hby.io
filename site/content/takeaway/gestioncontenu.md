@@ -6,7 +6,7 @@ people: 5 pers. max.
 illustration: 🍜
 ---
 
-Ca y est votre premier projet web va se lancer. Vos avez les bases mais il vous manque l'expertise pour choisir votre équipement.
+Ca y est votre premier projet web va se lancer. Vous avez les bases mais il vous manque l'expertise pour choisir votre équipement.
 
 Dans ce module nous passerons en revue les principaux outils de gestion de contenus libres (Drupal, Wordpress, JAMstack&SSG ..) et étudierons leurs avantages et inconvénients en fonction des contextes de projet.
 
