@@ -45,9 +45,6 @@
 </head>
 
 <body>
-  {{range .Pages}}
-  <a href="{{.Permalink}}">{{.Permalink}}</div>
-  {{end}}
   <div class="main">
     {{ block "header" . }}{{ partial "header" . }}{{end}}
 
