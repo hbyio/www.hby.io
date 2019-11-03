@@ -162,6 +162,15 @@ Les contenus peuvent être gérés de différentes façons (forestry.io, DATOCMS
         <div class="TotalHT w-20 text-right">?€HT</div>
     </div>
 </div>
+<div class="flex flex-col mb-2 md:mb-0 md:flex-row justify-between p-2 bg-purple-200">
+    <div class="Object flex-grow">
+        <div class="Name">Total provisoire</div>
+    </div>
+    <div class="flex justify-between flex-shrink-0">
+        <div class="Qte w-auto mr-4">16 jours</div>
+        <div class="TotalHT w-20 text-right">7000€HT</div>
+    </div>
+</div>
 
 <div class="flex flex-col mb-2 md:mb-0 md:flex-row justify-between p-2 bg-gray-200 mt-5">
     <div class="Object flex-grow">
