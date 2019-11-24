@@ -1,6 +1,6 @@
 ---
 description: 'Plateforme éditoriale'
-draft: false
+draft: true
 layout: "proposal"
 mission: 'conception'
 title: Proposition TAgBZH
