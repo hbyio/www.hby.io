@@ -11,8 +11,10 @@ title: 'Mairie de Paris'
 weight: 1
 year: 2009
 ---
-
+[Design: Jean-Manuel Goett](http://www.jean-manuel.net/)
 {{< img "ill2.png">}}
+
+[Design: Agence Peppercube](https://www.peppercube.net/)
 {{< img "ill1.png">}}
 
 

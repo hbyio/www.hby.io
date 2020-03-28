@@ -6,7 +6,7 @@
 {{ partial "covid.html" . }}
 <div class="w-full rounded p-0 sm:p-5 my-5">
     <div class="max-w-xl mx-auto flex items-center">
-        <img class="mr-2" src="/images/bolt.png" alt="">
+        <span class="mr-2">{{ partial "svg/bolt.svg" . }}</span>
         <h1>Nos services</h1>
     </div>
 </div>
@@ -15,7 +15,7 @@
 {{ partial "takeaway.html" . }}
 <div class="w-full rounded p-5 sm:p-2 my-5">
     <div class="max-w-xl mx-auto flex items-center">
-        <img class="mr-2" src="/images/bolt.png" alt="">
+        <span class="mr-2">{{ partial "svg/bolt.svg" . }}</span>
         <h1>Nos réalisations</h1>
     </div>
 </div>
@@ -26,8 +26,8 @@
 
 <div class="w-full rounded bg-white p-4 sm:p-10 my-5">
     <div class="max-w-xl mx-auto">
-        <img id="contactus" class="mx-auto" src="/images/bolt.png" alt="">
-        <div class="text-xl font-bold my-5 text-center">Nous contacter</div>
+        <span class="mr-2">{{ partial "svg/bolt.svg" . }}</span>
+        <h2>Nous contacter</h2>
         <form name="contact" class="form" method="POST" data-netlify="true">
             <div class="text-xs font-semibold mb-2">
                 <input class="input" type="text" name="name" placeholder="Votre nom" />

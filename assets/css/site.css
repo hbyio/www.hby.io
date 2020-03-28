@@ -1,6 +1,5 @@
 /* ////////////////// */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 html{
   background-color: white;
   font-size: 20px;
@@ -37,6 +36,13 @@ p {
 
 strong {
   @apply text-base font-semibold;
+}
+
+a {
+  @apply text-blue-900 underline font-medium text-base cursor-pointer leading-snug;
+}
+a:hover {
+  @apply text-gray-700;
 }
 
 .button {

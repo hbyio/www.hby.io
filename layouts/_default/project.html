@@ -1,35 +1,43 @@
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
 <a href="/">
-  <div class="flex items-center justify-center bg-gray-100">
+  <div class="flex items-center justify-center">
     <img src="/logobluesmall.png" height="100" alt="">
   </div>
 </a>
 
-<article class="max-w-3xl mx-auto">
-  <img class="mx-auto mt-10" src="/images/bolt.png" alt="">
-  <h1 class="w-full text-center ">{{.Title}}</h1>
-  {{ if .Params.Year}}
-  <div class="w-full text-center text-sm text-gray-800"><div class="text-gray-500 text-xs">Année</div>{{.Params.Year}}</div>
-  {{end}}
-  {{ if .Params.Agency}}
-  <div class="w-full text-center text-sm text-gray-800 mb-10"><div class="text-gray-500 text-xs">Agence</div>{{.Params.Agency}}</div>
-  {{ end }}
-  <div class=" mx-5 my-5 ">
-    <div class="text-sm font-medium text-gray-900 w-24 border-b-4 border-gray-900">
-      Problématique
-    </div>
-    <div>
-      {{- .Params.Brief -}}
-    </div>
+<div class="w-full rounded bg-gray-100 p-4 sm:p-10 my-5">
+  <div class="max-w-xl mx-auto">
+    <article>
+      {{ partial "svg/bolt.svg" . }}
+      <h1>{{.Title}}</h1>
+      {{ if .Params.Year}}
+      <div class="w-full text-sm text-gray-800">
+        <div class="text-gray-500 text-xs">Année</div>{{.Params.Year}}
+      </div>
+      {{end}}
+      {{ if .Params.Agency}}
+      <div class="w-full text-sm text-gray-800 mb-10">
+        <div class="text-gray-500 text-xs">Agence</div>{{.Params.Agency}}
+      </div>
+      {{ end }}
+      <div class="my-5 ">
+        <div class="text-sm font-medium text-gray-900 w-24 border-b-4 border-gray-900">
+          Problématique
+        </div>
+        <div>
+          {{- .Params.Brief -}}
+        </div>
+      </div>
+      <div class="my-5 ">
+        <div class="text-sm font-medium text-gray-900 w-24 border-b-4 border-gray-900">
+          Réponse
+        </div>
+        <div>
+          {{- .Params.Idea -}}
+        </div>
+      </div>
+      <div class="my-5">{{- .Content | safeHTML -}}</div>
+    </article>
   </div>
-  <div class="mx-5 my-5 ">
-    <div class="text-sm font-medium text-gray-900 w-24 border-b-4 border-gray-900">
-      Réponse
-    </div>
-    <div>
-      {{- .Params.Idea -}}
-    </div>
-  </div>
-  <div class="mx-5 my-5">{{- .Content -}}</div>
-</article>
-{{ end }}
+  <div>
+    {{ end }}

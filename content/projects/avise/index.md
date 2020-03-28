@@ -10,4 +10,6 @@ title: 'Avise.org'
 year: 2014
 ---
 
+[Design: Chloé Breuillé]([https://link](https://www.kolwi.me/))
+
 {{< img "ill1.png">}}
