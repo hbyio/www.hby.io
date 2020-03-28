@@ -2,6 +2,6 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 /* Site Specific */
-@import "site.scss";
+@import "site";
 @import "tailwindcss/utilities";
 
