@@ -3,6 +3,11 @@ languageCode = "en-us"
 languageLang = "en"
 title = "Huckleberry"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
 description= "We make products and applications for the web"
 

@@ -11,7 +11,7 @@ type: "product"
 weight: 1
 year: 'Depuis 2013'
 ---
-<a href="https://pilot.pm" class="button w-full flex items-center">
+<a href="https://pilot.pm" class="button flex items-center justify-center text-lg">
 Accéder au produit
 <span class="ml-2">{{< svg/out size="18" color="#546E7A" >}}</span>
 </a>

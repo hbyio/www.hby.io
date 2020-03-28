@@ -12,7 +12,7 @@ weight: 2
 year: '2019'
 ---
 
-<a href="https://draaft.io" class="button w-full flex items-center">
+<a href="https://draaft.io" class="button flex items-center justify-center text-lg">
 Accéder au produit
 <span class="ml-2">{{< svg/out size="18" color="#546E7A" >}}</span>
 </a>
