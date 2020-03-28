@@ -3,7 +3,9 @@ class TailwindExtractor {
     return content.match(/[A-z0-9-:\/]+/g)
   }
 }
-
+// 
+// tailwinUI specific regex   /[\w-/.:]+(?<!:)/g
+// 
 module.exports = {
   plugins: [
     require('postcss-import')({

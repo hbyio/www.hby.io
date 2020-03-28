@@ -3,7 +3,9 @@ class TailwindExtractor {
     return content.match(/[A-z0-9-:\/]+/g)
   }
 }
-
+// 
+// tailwinUI specific regex   /[\w-/.:]+(?<!:)/g
+// 
 module.exports = {
   plugins: [
     require('postcss-import')({
@@ -11,7 +13,7 @@ module.exports = {
     }),
     require('tailwindcss')('./assets/css/tailwind.config.js'),
     require('@fullhuman/postcss-purgecss')({
-      content: ['layouts/**/*.html'],
+      content: ['./layouts/**/*.html'],
       extractors: [
         {
           extractor: TailwindExtractor,
