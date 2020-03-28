@@ -39,7 +39,7 @@ strong {
 }
 
 a {
-  @apply text-blue-900 underline font-medium text-base cursor-pointer leading-snug;
+  @apply text-blue-900 underline font-medium  cursor-pointer leading-normal;
 }
 a:hover {
   @apply text-gray-700;
