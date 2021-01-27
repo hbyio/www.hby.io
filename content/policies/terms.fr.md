@@ -1,23 +1,43 @@
 ---
-author: mb
+agency: ''
+author: ''
+brief: ''
 date: '2018-09-01'
-layout: withToc
-menu: policies
-pilot_content_id: 39284
-sitemapShow: false
-slug: terms
-tag: juridique
+description: ''
+displayForm: ''
+draft: ''
+how: ''
+idea: ''
+illustration: ''
+layout: ''
+leader: ''
+menu: ''
+mission: ''
+name: ''
+overtitle: ''
+people: ''
+pilot_content_id: 40523
+price: ''
+short: ''
+sitemapShow: ''
+slug: ''
+status: ''
+subtitle: ''
+svg: ''
+tag: ''
+tagColor: ''
 title: Conditions générales de vente
-version: '1.0'
-weight: '1'
-workflow: Brouillon
+type: ''
+version: '1.2'
+weight: ''
+when: ''
+workflow: Discussion
+year: ''
 ---
-
-<span class="tag is-warning">Version 2.6</span>
 
 PILOT est une plateforme de production de contenus proposée en mode SAAS. La solution s’adresse à toute structure souhaitant produire du contenu de manière collaborative, et en particulier aux équipes des services communication / marketing des entreprises et à leurs partenaires / clients / prestataires.
 
-La plateforme PILOT est éditée par :
+La plateforme PILOT est éditée par matthieu et thomas :
 
 La SARL HUCKLEBERRY au capital de 53.500,00 euros, inscrite au RCS d’Aix-en-Provence sous le numéro 798 171 971, dont le siège social est sis 21 place Verminck à Fuveau 13710.
 
