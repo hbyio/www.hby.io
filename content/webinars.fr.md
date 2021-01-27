@@ -1,14 +1,39 @@
 ---
-author: Mathieu
-title: Webinars
-date: 2020-07-01
-draft: false
+agency: ''
+author: ''
+brief: ''
+date: '2020-07-01'
+description: ''
+displayForm: ''
+draft: ''
+how: ''
+idea: ''
+illustration: ''
+layout: ''
+leader: ''
+menu: ''
+mission: ''
+name: ''
+overtitle: ''
+people: ''
+pilot_content_id: 40541
+price: ''
+short: ''
+sitemapShow: ''
+slug: ''
+status: ''
+subtitle: Depuis chez vous ou votre bureau découvrez ou apprenez à vous servir de
+  Pilot en 30 minutes maximum
 svg: webinar
-subtitle: Depuis chez vous ou votre bureau découvrez ou apprenez à vous servir de Pilot en 30 minutes maximum
-menu:
-    main:
-        parent: Ressources
-        weight: 1
+tag: ''
+tagColor: ''
+title: Webinars
+type: ''
+version: '1.0'
+weight: ''
+when: ''
+workflow: Discussion
+year: ''
 ---
 
 ## Découvrir Pilot en 20 minutes
