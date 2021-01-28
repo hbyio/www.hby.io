@@ -1,13 +1,38 @@
 ---
-author: mb
-date: 2018-09-01
-menu: policies
-sitemapShow: false
-slug: terms
-tag: legal
-title: Terms and conditions
-version: "2.2"
-weight: 1
+agency: ''
+author: ''
+brief: ''
+date: '2018-05-01'
+description: ''
+displayForm: ''
+draft: ''
+how: ''
+idea: ''
+illustration: ''
+layout: ''
+leader: ''
+menu: ''
+mission: ''
+name: ''
+overtitle: ''
+people: ''
+pilot_content_id: 40610
+price: ''
+short: ''
+sitemapShow: ''
+slug: ''
+status: ''
+subtitle: ''
+svg: ''
+tag: ''
+tagColor: ''
+title: English terms of use
+type: ''
+version: '1.1'
+weight: ''
+when: ''
+workflow: Discussion
+year: ''
 ---
 
-This document is only available en french at the moment
+english translation
