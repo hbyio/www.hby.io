@@ -12,7 +12,7 @@ illustration: ''
 layout: ''
 leader: ''
 menu: ''
-mission: ''
+mission: global purpose
 name: ''
 overtitle: ''
 people: ''
@@ -28,10 +28,10 @@ tag: ''
 tagColor: ''
 title: English terms of use
 type: ''
-version: '1.1'
+version: '1.2'
 weight: ''
 when: ''
-workflow: Brouillon
+workflow: A valider par julie
 year: ''
 ---
 
