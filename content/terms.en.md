@@ -16,7 +16,7 @@ mission: ''
 name: ''
 overtitle: ''
 people: ''
-pilot_content_id: 40610
+pilot_content_id: 40679
 price: ''
 short: ''
 sitemapShow: ''
@@ -31,8 +31,10 @@ type: ''
 version: '1.1'
 weight: ''
 when: ''
-workflow: Discussion
+workflow: Brouillon
 year: ''
 ---
 
 english translation
+
+Translation is pending, please come back later or contact support
