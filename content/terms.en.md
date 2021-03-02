@@ -28,7 +28,7 @@ tag: ''
 tagColor: ''
 title: English terms of use
 type: ''
-version: '1.2'
+version: '1.4'
 weight: ''
 when: ''
 workflow: A valider par julie
