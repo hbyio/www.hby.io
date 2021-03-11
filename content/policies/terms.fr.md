@@ -16,7 +16,7 @@ mission: ''
 name: ''
 overtitle: ''
 people: ''
-pilot_content_id: 40523
+pilot_content_id: 40837
 price: ''
 short: ''
 sitemapShow: ''
@@ -28,10 +28,10 @@ tag: ''
 tagColor: ''
 title: Conditions générales de vente
 type: ''
-version: '1.2'
+version: '1.1'
 weight: ''
 when: ''
-workflow: Discussion
+workflow: A publier
 year: ''
 ---
 
@@ -49,7 +49,7 @@ Après avoir reçu toutes les informations nécessaires lui permettant d’appr�
 
 L’attention du Client est particulièrement attirée sur le fait que la souscription du présent Contrat est réservée aux professionnels.
 
-## 1. Définitions
+## 1. Définitions définitives
 
 *Utilisateur(s) :* désigne individuellement ou collectivement les Super-Users et les Utilisateurs invités.
 
